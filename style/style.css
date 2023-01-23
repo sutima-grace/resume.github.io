@@ -98,6 +98,13 @@ body {
     border-radius: 4px;
     margin: 8px 8px 0 8px;
   }
+.buttons {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+    
   .tab-style {
     background: linear-gradient(#38385c, #24263e);
     width: 95%;
