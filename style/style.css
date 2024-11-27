@@ -87,24 +87,26 @@ body {
     flex-wrap: wrap;
   }
   header > div > div {
-    width: 48%;
-  }
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* แบ่งพื้นที่เป็น 2 ส่วน รูปภาพ 1 ส่วน ข้อความและปุ่ม 2 ส่วน */
+  grid-template-rows: auto; /* ให้แถวมีความสูงเท่ากับเนื้อหา */
+  gap: 20px; 
+}
+  
   .text-header {
     grid-column: 2;
-      text-align: left; 
   }
 
 #profile {
-  grid-row: 1 / span 2;
-  justify-self: center; 
+  grid-row: 1 / span 2; 
 }
+
 .buttons #buttons_resume {
-  display: flex;
+grid-column: 2; 
+  align-self: end;
   background: linear-gradient(#ffb190 0%, #ff4686);
   color: white;
-  font-family: "Prompt", sans-serif;
-  padding: 10px; 
-  border-radius: 5px; 
+  font-family: "Prompt", sans-serif; 
 }
   #profile {
     width: 300px;
