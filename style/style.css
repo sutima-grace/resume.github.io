@@ -88,19 +88,17 @@ body {
   }
 
  header > div > div {
-    display: grid;
-    grid-template-columns: 1fr 2fr; 
-    grid-template-rows: auto; 
-     gap: 20px; 
- }
-
-.text-header {
-    grid-column: 2;
-}
-
-#profile {
-    grid-row: 1 / span 2; 
-}
+    width: 48%;
+  }
+  .text-header {
+    padding: 8px;
+  }
+  #profile {
+    width: 300px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin: 8px 8px 0 8px;
+  }
 
 .buttons #buttons_resume {
     grid-column: 2; 
