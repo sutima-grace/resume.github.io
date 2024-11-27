@@ -86,36 +86,29 @@ body {
     display: flex;
     flex-wrap: wrap;
   }
-  header > div > div {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: auto;
-  gap: 20px;
+
+ header > div > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    grid-template-rows: auto; 
+     gap: 20px; 
+ }
+
+.text-header {
+    grid-column: 2;
 }
 
 #profile {
-  grid-column: 1;
-}
-
-.text-header {
-  grid-column: 2;
-  grid-row: 1;
+    grid-row: 1 / span 2; 
 }
 
 .buttons #buttons_resume {
-  grid-column: 2;
-  grid-row: 2;
-  background: linear-gradient(#ffb190 0%, #ff4686);
-  color: white;
-  font-family: "Prompt", sans-serif;   
+    grid-column: 2; 
+    align-self: end;
+    background: linear-gradient(#ffb190 0%, #ff4686);
+    color: white;
+    font-family: "Prompt", sans-serif; 
 }
-
-  #profile {
-    width: 300px;
-    object-fit: contain;
-    border-radius: 4px;
-    margin: 8px 8px 0 8px;
-  }
 
   .tab-style {
     background: linear-gradient(#38385c, #24263e);
