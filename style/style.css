@@ -84,12 +84,12 @@ body {
 
 } 
   header > div {
-  background: linear-gradient(#38385c, #24263e);    
+  background: linear-gradient(#38385c, #24263e);
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
   gap: 20px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 #profile {
