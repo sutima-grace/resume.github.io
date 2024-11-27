@@ -99,10 +99,20 @@ body {
     border-radius: 4px;
     margin: 8px 8px 0 8px;
   }
-.buttons #buttons_resume {
-    background: linear-gradient(#ffb190 0%, #ff4686);
-    color: white;
-    font-family: "Prompt", sans-serif; 
+
+buttons #buttons_resume {
+  background: linear-gradient(#ffb190 0%, #ff4686);
+  color: white;
+  font-family: "Prompt", sans-serif;
+  border-radius: 8px;
+  padding: 15px 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+
+  &:hover {
+    background: linear-gradient(#ff4686 0%, #ffb190);
+    transform: scale(1.05); 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
 }
 
   .tab-style {
