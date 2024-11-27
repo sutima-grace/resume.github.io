@@ -77,17 +77,16 @@ body {
       linear-gradient(to right, #ffb190 0%, #ff4686 100%);
     padding: 10px;
   }
- header > div {
+eader > div {
     background: linear-gradient(#38385c, #24263e);
     border-radius: 4px;
     min-width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
   }
-
- header > div > div {
+  header > div > div {
     width: 48%;
   }
   .text-header {
@@ -99,7 +98,6 @@ body {
     border-radius: 4px;
     margin: 8px 8px 0 8px;
   }
-
 .buttons #buttons_resume {
     grid-column: 2; 
     align-self: end;
