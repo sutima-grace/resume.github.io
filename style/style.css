@@ -82,8 +82,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between; 
 
-}
+} 
   header > div {
+  background: linear-gradient(#38385c, #24263e);    
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto;
