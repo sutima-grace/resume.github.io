@@ -87,18 +87,23 @@ body {
     flex-wrap: wrap;
   }
   header > div > div {
-    width: 48%;
-  }
-  .text-header {
-    padding: 8px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
 
- .buttons #buttons_resume {
-    display: flex;
-    background: linear-gradient(#ffb190 0%, #ff4686);
-    color: white;
-    font-family: "Prompt", sans-serif;
-  }
+.text-header {
+  padding: 8px;
+  flex: 1; 
+}
+
+.buttons #buttons_resume {
+  display: flex;
+  background: linear-gradient(#ffb190 0%, #ff4686);
+  color: white;
+  font-family: "Prompt", sans-serif;
+  flex: 1; 
+}
 
   #profile {
     width: 300px;
