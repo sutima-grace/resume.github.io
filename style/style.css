@@ -77,7 +77,7 @@ body {
       linear-gradient(to right, #ffb190 0%, #ff4686 100%);
     padding: 10px;
   }
-eader > div {
+  header > div {
     background: linear-gradient(#38385c, #24263e);
     border-radius: 4px;
     min-width: 100%;
@@ -86,6 +86,7 @@ eader > div {
     display: flex;
     flex-wrap: wrap;
   }
+
   header > div > div {
     width: 48%;
   }
@@ -99,8 +100,6 @@ eader > div {
     margin: 8px 8px 0 8px;
   }
 .buttons #buttons_resume {
-    grid-column: 2; 
-    align-self: end;
     background: linear-gradient(#ffb190 0%, #ff4686);
     color: white;
     font-family: "Prompt", sans-serif; 
