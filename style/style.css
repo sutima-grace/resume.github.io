@@ -101,8 +101,11 @@ body {
   text-align: left; 
 }
 .buttons {
-  grid-column: 2; 
-  align-self: end; 
+   background: linear-gradient(#ffb190 0%, #ff4686);
+   color: white;
+   font-family: "Prompt", sans-serif;
+   grid-column: 2; 
+   align-self: end; 
 }
   #profile {
     width: 300px;
