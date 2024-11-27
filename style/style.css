@@ -391,6 +391,12 @@ buttons #buttons_resume {
     height: 40px;
     cursor: pointer;
   }
+  .facebook:before,
+  .instagram:before,
+  .linkedin:before,
+  .email:before {
+  content: "";
+}
   .facebook {
     background-image: url("https://image.flaticon.com/icons/svg/174/174848.svg");
   }
